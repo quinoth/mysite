@@ -148,7 +148,7 @@ footer p {
   header img,
   header p,
   h1 {
-    width: 90%;
+    width: 30%;
   }
 
   article {
@@ -165,7 +165,7 @@ footer p {
   header img,
   header p,
   h1 {
-    width: 80%;
+    width: 40%;
   }
 
   article {
@@ -181,7 +181,7 @@ footer p {
   header img,
   header p,
   h1 {
-    width: 100%;
+    width: 50%;
     margin: 20px auto;
   }
 
