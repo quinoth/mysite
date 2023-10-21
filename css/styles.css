@@ -178,7 +178,7 @@ footer p {
 
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   header img,
   header p,
   h1 {
