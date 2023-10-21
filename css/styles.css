@@ -150,8 +150,7 @@ footer p {
   }
 
   header p,
-  h1,
-  article {
+  h1 {
     width: 100%;
   }
 
@@ -160,16 +159,14 @@ footer p {
     margin-top: 30px;
   }
 
-  card img {
-    width: 100%;
-    margin-left: 0;
+  article {
+    padding: 10px;
   }
 }
 
 @media (max-width: 600px) {
   header p,
-  h1,
-  article {
+  h1 {
     font-size: 20px;
   }
 
@@ -179,12 +176,18 @@ footer p {
     height: 70px;
   }
 
-  .card img {
-    width: 150px;
+  article {
+    padding: 5px;
   }
 
-  .card-cast p {
-    font-size: 10px;
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card img {
+    margin-left: 0;
+    margin-top: 10px;
   }
 
   .description p {
