@@ -182,7 +182,7 @@ footer p {
   header img,
   header p,
   h1 {
-    width: 800px;
+    width: 100%;
     margin: 20px auto;
   }
 
