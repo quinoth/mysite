@@ -144,5 +144,51 @@ footer p {
   color: #ffffff;
 }
 
+@media (max-width: 480px) {
+  header img,
+  header p,
+  h1 {
+    width: 90%;
+  }
+
+  article {
+    padding: 10px;
+  }
+
+  .card img {
+    width: 150px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 780px) {
+  header img,
+  header p,
+  h1 {
+    width: 80%;
+  }
+
+  article {
+    padding: 15px;
+  }
+
+  .card img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  header img,
+  header p,
+  h1 {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  article {
+    padding: 20px;
+  }
+}
+
 
 
